@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.sf-preview{
+@include ns(preview){
     height: 100vh;
     background-color: #eee;
     display: flex;

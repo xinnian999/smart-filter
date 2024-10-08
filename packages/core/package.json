@@ -1,8 +1,8 @@
 {
-  "name": "@smart-filter/style",
+  "name": "@smart-filter/core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.scss",
+  "main": "index.ts",
   "scripts": {
   },
   "keywords": [],
