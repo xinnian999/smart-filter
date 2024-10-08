@@ -1,0 +1,11 @@
+{
+  "name": "@smart-filter/style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.scss",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
