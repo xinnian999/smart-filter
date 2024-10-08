@@ -1,0 +1,16 @@
+{
+  "name": "smart-filter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev:vue": "pnpm -C packages/vue dev",
+    "dev:react": "pnpm -C packages/react dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
