@@ -1,11 +1,18 @@
 <template>
   <div :class="namespace('container')">
-    <input
-      :class="namespace('inner')"
-      type="text"
-      v-model="q"
-      placeholder="多个关键字用竖线 “|” 分隔，多个过滤标签用回车键分隔"
-    />
+    <div :class="namespace('inner')">
+      <input
+        :class="namespace('inner-input')"
+        type="text"
+        v-model="q"
+        placeholder="多个关键字用竖线 “|” 分隔，多个过滤标签用回车键分隔"
+      />
+
+      <div :class="namespace('inner-dropdown')">
+
+      </div>
+    </div>
+
     <Icon name="search" />
   </div>
 </template>
