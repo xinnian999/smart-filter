@@ -17,6 +17,7 @@
     "vite": "^5.4.8"
   },
   "dependencies": {
-    "@smart-filter/core":"workspace:*"
+    "@smart-filter/core":"workspace:*",
+    "@smart-filter/vue":"workspace:*"
   }
 }

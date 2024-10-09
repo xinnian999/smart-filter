@@ -21,6 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@smart-filter/*": ["./packages/*"],
+      "@vue/*": ["./packages/vue/src/*"],
     }
   },
   "include": ["packages"]

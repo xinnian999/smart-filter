@@ -1,4 +1,21 @@
 @include ns(container){
-    padding: 10px;
-    border: 1px solid #999;
+    padding: 8px;
+    border: 1px solid #cfd5de;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    color: #999;
+
+    @include ns(inner){
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        &::placeholder{
+            color: rgba(0, 0, 0, .25);
+            font-size: 12px;
+        }
+    }
 }
+

@@ -5,8 +5,16 @@
 
 @include ns(preview){
     height: 100vh;
-    background-color: #eee;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@include ns(icon){
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    fill: currentColor;
 }
