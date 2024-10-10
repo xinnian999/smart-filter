@@ -1,5 +1,5 @@
 @include ns(container) {
-  padding: 8px;
+  padding: 5px 8px;
   border: 1px solid #cfd5de;
   border-radius: 3px;
   width: 100%;
@@ -24,7 +24,7 @@
     }
 
     &-dropdown {
-      width: 150px;
+      min-width: 120px;
       height: 200px;
       border-radius: 3px;
       background-color: #fff;
@@ -33,6 +33,22 @@
       left: 0;
       bottom: -10px;
       transform: translateY(100%);
+      font-size: 12px;
+      list-style: none;
+      // padding: 10px 0;
+      line-height: 30px;
+
+      &-title{
+        text-align: center;
+      }
+      &-item {
+        cursor: pointer;
+        padding: 0 10px;
+        color: #000;
+        &:hover {
+          background-color: #cfd5de;
+        }
+      }
     }
   }
 
