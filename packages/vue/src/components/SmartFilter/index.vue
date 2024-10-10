@@ -8,6 +8,7 @@
         placeholder="多个关键字用竖线 “|” 分隔，多个过滤标签用回车键分隔"
         @focus="onFocus"
         @blur="onBlur"
+      @keydown.enter="handleSearch"
         ref="inputRef"
       />
 
@@ -60,5 +61,9 @@ const handleSelect = (value: string) => {
   visible.value = false
 
   inputRef.value.focus()
+}
+
+const handleSearch=()=>{
+  q.value=''
 }
 </script>
